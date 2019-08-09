@@ -101,7 +101,7 @@ int main()
 	} while (run);
 	
 	
-	
+	system("PAUSE");
 	
 
 }
