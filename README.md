@@ -18,6 +18,8 @@
 
 ![规则](dlt.png)
 
+[https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E4%BD%93%E8%82%B2%E5%BD%A9%E7%A5%A8%E8%B6%85%E7%BA%A7%E5%A4%A7%E4%B9%90%E9%80%8F/14435604?fr=aladdin](https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E4%BD%93%E8%82%B2%E5%BD%A9%E7%A5%A8%E8%B6%85%E7%BA%A7%E5%A4%A7%E4%B9%90%E9%80%8F/14435604?fr=aladdin "百度百科链接")
+
 该代码研究方向为模拟随机购买一注要多久能中奖,不考虑现实情况或者规则有误的情况.
 
 
