@@ -13,8 +13,11 @@ private:
 public :
 	int * getFrontArea();
 	int * getBackArea();
+	//设置该彩票前区
 	void setFrontArea(int num1, int num2, int num3, int num4, int num5);
+	//设置该彩票后区
 	void setBackArea(int num1,int num2);
+	//打印该彩票信息
 	void printPaper();
 	std::string getNumnString();
 	int getFrontAreaSize() {

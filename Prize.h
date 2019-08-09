@@ -10,7 +10,7 @@ public:
 	//中了多少钱
 	virtual int Money(LotteryPaper lpSrc, LotteryPaper lp) = 0;
  
-
+	//获取后区的中奖个数(计算交集)
 	int getBackIntersectionSize(LotteryPaper lpSrc, LotteryPaper lp) {
 		int* srcBack = lpSrc.getBackArea();
 		int* back = lp.getBackArea();
@@ -18,6 +18,7 @@ public:
 		return getIntersectionSize(srcBack, back,lp.getBackAreaSize());
 	}
 
+	//获取前区的中奖个数
 	int getFrontIntersectionSize(LotteryPaper lpSrc, LotteryPaper lp) {
 		int* srcFront = lpSrc.getFrontArea();
 		int* front = lp.getFrontArea();
@@ -44,9 +45,7 @@ private:
 		return result;
 	}
 
-	int arrLength(int a[]) {
-		return (sizeof(a) / sizeof(a[0]));
-	}
+	 
 
 };
 
